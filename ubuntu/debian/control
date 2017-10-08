@@ -1,0 +1,42 @@
+Source: ignition-math4
+Standards-Version: 3.9.4
+Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
+Section: science
+Priority: extra
+Build-Depends: cmake,
+               debhelper (>= 7.0.50~),
+               python,
+               ruby-ronn
+Vcs-Browser: https://bitbucket.org/ignitionrobotics/ign_math-release
+Vcs-Hg: https://bitbucket.org/ignitionrobotics/ign_math-release
+Homepage: https://bitbucket.org/ignitionrobotics/ign_math
+
+Package: libignition-math4
+Architecture: any
+Section: libs
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Multi-Arch: same
+Replaces: libignition-math2
+Breaks: libignition-math2
+Description: Ignition Robotics Math Library - Shared library
+
+Package: libignition-math4-dev
+Architecture: any
+Section: libdevel
+Depends: libignition-math4 (= ${binary:Version}),
+         ${misc:Depends}
+Multi-Arch: same
+Replaces: libignition-math2-dev
+Breaks: libignition-math2-dev
+Description: Ignition Robotics Math Library - Development files
+
+Package: libignition-math4-dbg
+Architecture: any
+Section: debug
+Priority: extra
+Depends:
+     libignition-math4 (= ${binary:Version}),
+     ${misc:Depends}
+Multi-Arch: same
+Description: Ignition Robotics Math Library - Debugging symbols
