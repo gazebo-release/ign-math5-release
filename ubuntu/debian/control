@@ -5,6 +5,7 @@ Section: science
 Priority: extra
 Build-Depends: cmake,
                debhelper (>= 7.0.50~),
+               libignition-cmake-dev,
                python,
                ruby-ronn
 Vcs-Browser: https://bitbucket.org/ignitionrobotics/ign_math-release
@@ -25,6 +26,7 @@ Package: libignition-math4-dev
 Architecture: any
 Section: libdevel
 Depends: libignition-math4 (= ${binary:Version}),
+         libignition-cmake-dev,
          ${misc:Depends}
 Multi-Arch: same
 Replaces: libignition-math2-dev
