@@ -18,8 +18,6 @@ Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
-Replaces: libignition-math2
-Breaks: libignition-math2
 Description: Ignition Robotics Math Library - Shared library
 
 Package: libignition-math4-dev
@@ -29,8 +27,6 @@ Depends: libignition-math4 (= ${binary:Version}),
          libignition-cmake-dev,
          ${misc:Depends}
 Multi-Arch: same
-Replaces: libignition-math2-dev
-Breaks: libignition-math2-dev
 Description: Ignition Robotics Math Library - Development files
 
 Package: libignition-math4-dbg
