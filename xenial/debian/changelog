@@ -1,3 +1,9 @@
+ignition-math4 (4.0.0~pre4-1~xenial) xenial; urgency=medium
+
+  * ignition-math4 4.0.0~pre4-1 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Wed, 20 Dec 2017 12:52:52 +0100
+
 ignition-math4 (4.0.0~pre3-1~xenial) xenial; urgency=medium
 
   * ignition-math4 4.0.0~pre3-1 release
