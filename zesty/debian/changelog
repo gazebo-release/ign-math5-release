@@ -1,3 +1,9 @@
+ignition-math4 (4.0.0-1~zesty) zesty; urgency=medium
+
+  * ignition-math4 4.0.0-1 release
+
+ -- Steve Peters <scpeters@osrfoundation.org>  Tue, 26 Dec 2017 14:38:53 -0800
+
 ignition-math4 (4.0.0~pre4-1~zesty) zesty; urgency=medium
 
   * ignition-math4 4.0.0~pre4-1 release
