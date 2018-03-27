@@ -5,7 +5,7 @@ Section: science
 Priority: extra
 Build-Depends: cmake,
                debhelper (>= 7.0.50~),
-               libignition-cmake-dev,
+               libignition-cmake1-dev,
                python,
                ruby-ronn
 Vcs-Browser: https://bitbucket.org/ignitionrobotics/ign_math-release
@@ -24,7 +24,7 @@ Package: libignition-math5-dev
 Architecture: any
 Section: libdevel
 Depends: libignition-math5 (= ${binary:Version}),
-         libignition-cmake-dev,
+         libignition-cmake1-dev,
          ${misc:Depends}
 Multi-Arch: same
 Description: Ignition Robotics Math Library - Development files
