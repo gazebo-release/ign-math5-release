@@ -1,3 +1,9 @@
+ignition-math5 (5.0.0~pre1-1~bionic) bionic; urgency=medium
+
+  * ignition-math5 5.0.0~pre1-1 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Tue, 27 Mar 2018 21:53:15 +0200
+
 ignition-math5 (4.0.0-1~bionic) bionic; urgency=medium
 
   * ignition-math5 4.0.0-1 release
