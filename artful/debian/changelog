@@ -1,23 +1,6 @@
-ignition-math4 (4.0.0-1~artful) artful; urgency=medium
+ignition-math5 (4.0.0-1~artful) artful; urgency=medium
 
   * ignition-math4 4.0.0-1 release
 
  -- Steve Peters <scpeters@osrfoundation.org>  Tue, 26 Dec 2017 14:38:53 -0800
 
-ignition-math4 (4.0.0~pre4-1~artful) artful; urgency=medium
-
-  * ignition-math4 4.0.0~pre4-1 release
-
- -- Jose Luis Rivero <jrivero@osrfoundation.org>  Wed, 20 Dec 2017 12:52:52 +0100
-
-ignition-math4 (4.0.0~pre3-1~artful) artful; urgency=medium
-
-  * ignition-math4 4.0.0~pre3-1 release
-
- -- Steve Peters <scpeters@osrfoundation.org>  Fri, 01 Dec 2017 16:04:06 -0800
-
-ignition-math4 (4.0.0~pre2-1~artful) artful; urgency=medium
-
-  * ignition-math4 4.0.0~pre2-1 release
-
- -- Steve Peters <scpeters@osrfoundation.org>  Wed, 08 Nov 2017 11:55:00 -0800
