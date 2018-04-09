@@ -2,3 +2,5 @@ usr/include/*
 usr/lib/*/*.so
 usr/lib/*/pkgconfig/*.pc
 usr/lib/*/cmake/ignition-math5/*
+usr/share/ignition/*/*
+usr/share/ignition/*/codecheck/*
