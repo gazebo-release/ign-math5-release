@@ -1,3 +1,9 @@
+ignition-math5 (5.0.0~pre3-1~stretch) stretch; urgency=medium
+
+  * ignition-math5 5.0.0~pre3-1 release
+
+ -- Steve Peters <scpeters@osrfoundation.org>  Thu, 28 Jun 2018 10:57:03 -0700
+
 ignition-math5 (5.0.0~pre2-1~stretch) stretch; urgency=medium
 
   * ignition-math5 5.0.0~pre2-1 release
