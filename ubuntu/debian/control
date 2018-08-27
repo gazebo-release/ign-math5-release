@@ -30,6 +30,15 @@ Depends: libignition-math5 (= ${binary:Version}),
 Multi-Arch: same
 Description: Ignition Robotics Math Library - Development files
 
+Package: libignition-math5-eigen3-dev
+Architecture: any
+Section: libdevel
+Depends: libignition-math5-dev (= ${binary:Version}),
+         libeigen3-dev,
+         ${misc:Depends}
+Multi-Arch: same
+Description: Ignition Robotics Math Library - Eigen3 Development files
+
 Package: libignition-math5-dbg
 Architecture: any
 Section: debug
