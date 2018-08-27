@@ -4,7 +4,6 @@ DEB_HOST_ARCH := $(shell dpkg-architecture -qDEB_HOST_ARCH)
 
 .PHONY: override_dh_auto_configure \
         override_dh_strip \
-        override_dh_install \
         override_dh_auto_test
 
 %:
@@ -16,10 +15,6 @@ override_dh_auto_configure:
 
 override_dh_strip:
 	dh_strip -a --dbg-package=libignition-math5-dbg
-
-override_dh_install:
-	dh_install
-	cd debian/libignition-math5-eigen3-dev; find . -type f -exec rm -f ../libignition-math5-dev/{} \;
 
 override_dh_auto_test:
 ifeq ($(DEB_HOST_ARCH),armhf)
