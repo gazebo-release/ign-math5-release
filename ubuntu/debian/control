@@ -6,6 +6,7 @@ Priority: extra
 Build-Depends: cmake,
                debhelper (>= 7.0.50~),
                doxygen,
+               libeigen3-dev,
                libignition-cmake1-dev,
                python,
                ruby-ronn
