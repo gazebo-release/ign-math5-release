@@ -1,4 +1,4 @@
 usr/include/ignition/*/ignition/math/eigen3/*
 usr/include/ignition/*/ignition/math/eigen3.hh
-usr/lib/*/pkgconfig/*eigen3*.pc
-usr/lib/*/cmake/ignition-math5-eigen3/*
+usr/lib/*/pkgconfig/ignition-math?-eigen3.pc
+usr/lib/*/cmake/ignition-math?-eigen3/*

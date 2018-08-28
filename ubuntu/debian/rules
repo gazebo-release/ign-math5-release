@@ -20,8 +20,8 @@ override_dh_strip:
 override_dh_install:
 	dh_install
 	# remove duplicate eigen files from mathx-dev.install regexp
-	cd debian/libignition-math5-eigen3-dev; find . -type f -exec rm -f ../libignition-math5-dev/{} \;
-	find debian/libignition-math5-dev -type d -empty -delete
+	cd debian/libignition-math?-eigen3-dev; find . -type f -exec rm -f ../libignition-math?-dev/{} \;
+	find debian/libignition-math?-dev -type d -empty -delete
 
 override_dh_auto_test:
 ifeq ($(DEB_HOST_ARCH),armhf)
